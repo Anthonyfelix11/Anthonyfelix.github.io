@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anthony Felix - Fotógrafo Profesional</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        nav {
+            text-align: center;
+            padding: 10px 0;
+            background-color: #444;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.2em;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+        }
+        section {
+            margin-bottom: 40px;
+        }
+        section h2 {
+            border-bottom: 2px solid #333;
+            padding-bottom: 10px;
+            font-size: 2em;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            position: absolute;
+            width: 100%;
+            bottom: 0;
+        }
+        .contact-info {
+            list-style: none;
+            padding: 0;
+        }
+        .contact-info li {
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Anthony Felix</h1>
+        <p>Fotógrafo Profesional, Editor Gráfico y Camarógrafo</p>
+    </header>
+    <nav>
+        <a href="#about">Sobre Mí</a>
+        <a href="#services">Servicios</a>
+        <a href="#contact">Contacto</a>
+    </nav>
+    <div class="container">
+        <section id="about">
+            <h2>Sobre Mí</h2>
+            <p>Soy Anthony Felix, un fotógrafo profesional, editor gráfico y camarógrafo con años de experiencia en capturar momentos únicos y transformarlos en recuerdos inolvidables. Mi pasión por la fotografía y el video me ha llevado a trabajar en diversos proyectos, siempre buscando la perfección en cada toma.</p>
+        </section>
+        <section id="services">
+            <h2>Planes Fotográficos</h2>
+            <p>Ofrecemos una variedad de planes fotográficos para adaptarnos a tus necesidades:</p>
+            <ul>
+                <li><strong>Plan Básico:</strong> Sesión de fotos de 1 hora, 10 fotos editadas.</li>
+                <li><strong>Plan Intermedio:</strong> Sesión de fotos de 2 horas, 20 fotos editadas, video corto.</li>
+                <li><strong>Plan Avanzado:</strong> Sesión de fotos de 4 horas, 50 fotos editadas, video profesional.</li>
+            </ul>
+        </section>
+        <section id="contact">
+            <h2>Contacto</h2>
+            <p>Para más información o para reservar una sesión, puedes contactarme a través de los siguientes medios:</p>
+            <ul class="contact-info">
+                <li>Email: anthony.felix@example.com</li>
+                <li>Teléfono: +123 456 7890</li>
+                <li>Dirección: Calle Falsa 123, Ciudad, País</li>
+            </ul>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Anthony Felix. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
